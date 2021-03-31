@@ -1,14 +1,18 @@
 {
   "name": "Don't pay for privacy",
   "description": "Don't pay for privacy",
-  "version": "0.1",
+  "version": "0.0.1",
   "manifest_version": 3,
+  "icons": { 
+    "16": "assets/cookie16.png",
+    "48": "assets/cookie48.png",
+   "128": "assets/cookie128.png"
+  },
   "background": {
     "service_worker": "background-worker.js"
   },
   "permissions": [
     "tabs",
-    "activeTab",
     "scripting"
   ],
   "host_permissions": [
