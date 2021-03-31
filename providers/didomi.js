@@ -8,6 +8,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
                 const badPopin = document.getElementById('didomi-host');
                 if (badPopin) {
                     badPopin.style.display = 'none';
+                    document.body.classList.remove('didomi-popup-open')
                 }
             }
         });
