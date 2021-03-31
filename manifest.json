@@ -12,8 +12,7 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://www.jeuxvideo.com/",
-    "https://www.allocine.fr/",
-    "https://www.orange.fr/"
+    "http://*/",
+    "https://*/"
   ]
 }
