@@ -1,0 +1,19 @@
+{
+  "name": "Don't pay for privacy",
+  "description": "Don't pay for privacy",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background-worker.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.jeuxvideo.com/",
+    "https://www.allocine.fr/",
+    "https://www.orange.fr/"
+  ]
+}
